@@ -1,5 +1,7 @@
 package config
 
 type App struct {
-	Name string
+	Name   string
+	Public string
+	Assets string
 }

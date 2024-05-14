@@ -1,23 +1,13 @@
 package config
 
 import (
-	"time"
-
 	"github.com/creamsensation/auth"
+	"github.com/creamsensation/csrf"
+	"github.com/creamsensation/firewall"
 )
 
 type Security struct {
 	Auth      auth.Config
-	Csrf      Csrf
-	Firewalls []Firewall
-}
-
-type Csrf struct {
-	Expiration time.Duration
-}
-
-type Firewall struct {
-	Enabled  bool
-	Patterns []string
-	Roles    []string
+	Csrf      csrf.Csrf
+	Firewalls []firewall.Firewall
 }
