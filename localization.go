@@ -3,7 +3,7 @@ package config
 import (
 	"github.com/creamsensation/translator"
 	
-	"github.com/creamsensation/validator"
+	"github.com/creamsensation/form"
 )
 
 type Localization struct {
@@ -11,7 +11,7 @@ type Localization struct {
 	Path       bool
 	Languages  []Language
 	Translator translator.Translator
-	Validator  validator.Messages
+	Form       form.Messages
 }
 
 type Language struct {
