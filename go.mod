@@ -3,11 +3,11 @@ module github.com/creamsensation/config
 go 1.22
 
 require (
-	github.com/creamsensation/auth v0.1.2
-	github.com/creamsensation/cache v0.1.2
+	github.com/creamsensation/auth v0.1.3
+	github.com/creamsensation/cache v0.1.3
 	github.com/creamsensation/csrf v0.1.0
 	github.com/creamsensation/filesystem v0.1.0
-	github.com/creamsensation/firewall v0.1.2
+	github.com/creamsensation/firewall v0.1.3
 	github.com/creamsensation/form v0.1.4
 	github.com/creamsensation/mailer v0.1.0
 	github.com/creamsensation/quirk v0.1.9
@@ -17,8 +17,8 @@ require (
 
 require (
 	github.com/BurntSushi/toml v1.3.2 // indirect
-	github.com/boombuler/barcode v1.0.1-0.20190219062509-6c824513bacc // indirect
-	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/boombuler/barcode v1.0.1 // indirect
+	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/creamsensation/cookie v0.1.1 // indirect
 	github.com/creamsensation/env v0.1.0 // indirect
 	github.com/creamsensation/gox v0.3.3 // indirect
@@ -43,11 +43,11 @@ require (
 	github.com/rs/xid v1.5.0 // indirect
 	github.com/sirupsen/logrus v1.9.3 // indirect
 	github.com/stretchr/testify v1.9.0 // indirect
-	golang.org/x/crypto v0.17.0 // indirect
+	golang.org/x/crypto v0.23.0 // indirect
 	golang.org/x/exp v0.0.0-20231006140011-7918f672742d // indirect
-	golang.org/x/net v0.19.0 // indirect
-	golang.org/x/sys v0.15.0 // indirect
-	golang.org/x/text v0.14.0 // indirect
+	golang.org/x/net v0.21.0 // indirect
+	golang.org/x/sys v0.20.0 // indirect
+	golang.org/x/text v0.15.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
